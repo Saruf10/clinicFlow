@@ -1,0 +1,23 @@
+# Environment variables and secrets (Strictly excluded)
+.env
+.env*
+!.env.example
+*.env
+
+# Build outputs
+target/
+dist/
+node_modules/
+.m2_repo/
+apache-maven-*/
+
+# Logs, test outputs and temporary files
+*.log
+*.pyc
+__pycache__/
+*.tsbuildinfo
+verify_runtime.py
+test_supabase_connection.py
+init_supabase_schema.py
+.DS_Store
+Thumbs.db
